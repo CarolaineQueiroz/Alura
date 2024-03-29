@@ -3,4 +3,4 @@ let a = 1
 do {
     console.log(`numero ${a}`)
     a++
-} while (a > 0)
+} while (a >= 10)
