@@ -1,12 +1,18 @@
-let título = document.querySelector('h1');
-título.innerHTML = 'Jogo do número secreto';
+let numeroSecreto = gerarNumeroAleatorio();
 
-let paragrafo = document.querySelector('p');
-paragrafo.innerHTML = 'Escolha um número entre 1 e 10';
+function exibirTextoNaTela(tag, texto) {
+    let campo = document.querySelector(tag);
+    campo.innerHTML = texto;
+}
 
-let campo = document.querySelector(tag)
-campo.innerHTML = texto
+exibirTextoNaTela('h1', 'Jogo do número secreto');
+exibirTextoNaTela('p', 'Escolha um número entre 1 e 10');
 
 function verificarChute() {
-    console.log('O botão foi clicado')
+    let chute = document.querySelector('input').value;
+    console.log(chute == numeroSecreto);
+}
+
+function gerarNumeroAleatorio() {
+    return parent(Math.random() * 10 + 1);
 }
