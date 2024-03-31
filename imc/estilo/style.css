@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bonheur+Royale&family=Calligraffitti&family=Dancing+Script:wght@400..700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --fonte1: "Poppins", sans-serif;
+    --fonte2: "Arial", "Helvetica", sans-serif; 
+    
+}
+
+body {
+    min-height: 100vh;
+    display: grid;
+    place-content: center;
+    margin-top: 60px;
+    background-image: url(/imc/imagens/undraw_fitness_stats_sht6.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container {
+    max-width: 800px;
+    width: 100%;
+    border: 2px solid #707070;
+    padding: 16px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+}
+
+h1 {
+    text-align: justify;
+    font-size: 30px;
+    font-family: var(--fonte1);
+    display: grid;
+    place-content: center;
+}
+
+label {
+    background-color: rgba(128, 128, 128, 0.608);
+    text-align: justify;
+    font-family: var(--fonte1);
+    display: grid;
+    place-content: center;
+}
+
+input {
+    font-family: var(--fonte1);
+    background-size: cover;
+    place-content: center;
+    border-radius: 5px;
+    margin-top: 1.2px;
+    height: 20px;
+    width: 300px;
+    display: grid;
+}
+
+button {
+    border-radius: 5px;
+    display: grid;
+    place-content: center;
+    margin-bottom: 2px;
+    width: 300px;
+}
+
+#btn:hover {
+    text-decoration: underline;
+}
