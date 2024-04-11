@@ -1,8 +1,14 @@
 const estudante = 'Erik';
-const estaAprovado = 'true';
+const estaAprovado = true;
 
-if (estaAprovado === true) {
-    console.log('Parabéns, você passou');
+if (estaAprovado ) {
+    console.log('Parabéns, boas festas!');
 } else {
-    console.log('Você está reprovado');
+    console.log('Reprovado, estude mais');
+}
+
+if (estudante === 'Erik') {
+    console.log(`Olá, ${estudante}`);
+} else {
+    console.log('quem é você?');
 }
