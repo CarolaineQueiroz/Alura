@@ -1,6 +1,6 @@
-const { edGalho, edFolha } = requirel('./arrays');
+const { edFolha, edGalho } = requirel('./array');
 
-function juntaListas (lista1, lista2) {
+function juntaListas(lista1, lista2) {
     let listaFinal = [];
     let posicaoAtualLista1 = 0;
     let posicaoAtualLista2 = 0;
