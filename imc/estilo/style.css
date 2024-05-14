@@ -19,7 +19,7 @@ body {
     display: grid;
     place-content: center;
     margin-top: 60px;
-    background-image: url(/imc/imagens/undraw_fitness_stats_sht6.png);
+    background-image: url(/imagens/undraw_fitness_stats_sht6.png);
     background-repeat: no-repeat;
     background-position: center;
 }
